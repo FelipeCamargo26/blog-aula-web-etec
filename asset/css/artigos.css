@@ -1,0 +1,37 @@
+.artigos-bg {
+  background: #020617;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.artigos-titulo h1{
+  color: #1d4ed8;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.artigos-titulo p {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.artigos-container-box {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.artigos-box img{
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.artigos-box h2 {
+  color: #1d4ed8;
+  margin-bottom: 0.8rem;
+}
+
+.artigos-box p {
+  color: #fff;
+}
