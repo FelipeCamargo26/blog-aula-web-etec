@@ -20,12 +20,12 @@
         <img src="./asset/img/BSM - LOGO AZUL.png" alt="Logo BSM" width="130">
       </div>
       <nav>
-        <ul class="header-menu">
-          <li><a href="/">Artigos</a></li>
+        <ul class="header-menu js-menu">
+          <li><a href="#artigos">Artigos</a></li>
           <li><a href="/">Podcast</a></li>
-          <li><a href="/">Contato</a></li>
-          <li><a href="/">.NET</a></li>
-          <li><a href="/">Blazor</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#net">.NET</a></li>
+          <li><a href="#blazor">Blazor</a></li>
         </ul>
       </nav>
     </div>
@@ -35,8 +35,8 @@
       <img src="./asset/img/7076397.jpg" alt="">
     </div>
   </main>
-  <section class="artigos-bg">
-    <div class="artigos container">
+  <section class="artigos-bg" id="artigos">
+    <div class="artigos container js-scroll">
       <div class="artigos-titulo">
         <h1>Últimos Artigos</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, numquam asperiores excepturi exercitationem dolor maiores rem commodi facere iusto sequi nisi. Dolor minima nostrum dolorem ab repellat, quae ipsam facere.</p>
@@ -68,9 +68,9 @@
       </div>
     </div>
   </section>
-  <section class="cta container">
+  <section class="cta container js-scroll">
     <div class="cta-box">
-      <div class="cta-descricao">
+      <div class="cta-descricao" id="net">
         <h2>Pacote de codificação .NET</h2>
         <p>Com um download, o .NET Coding Pack oferece tudo o que você precisa para começar a codificar com C#. O pacote inclui o editor VS Code, o SDK .NET, Blocos de anotações interativos e muito mais!
         </p>
@@ -80,7 +80,7 @@
     </div>
     <div class="cta-box">
       <img src="./asset/img/Designer -03.jpeg" alt="">
-      <div class="cta-descricao">
+      <div class="cta-descricao" id="blazor">
         <h2>ASP.NET Core Blazor</h2>
         <p>Blazor é uma estrutura Web de front-end do .NET que dá suporte à renderização do lado do servidor e à interatividade do cliente em um único modelo de programação
         </p>
@@ -88,7 +88,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer-bg">
+  <footer class="footer-bg" id="contato">
     <div class="footer container">
       <div class="footer-descricao">
         <h2>Me siga nas redes sociais.</h2>
@@ -108,6 +108,7 @@
       </div>
     </div>
   </footer>
+  <script src="/main.js"></script>
 </body>
 
 </html>
