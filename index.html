@@ -68,8 +68,8 @@
       </div>
     </div>
   </section>
-  <section class="cta container js-scroll">
-    <div class="cta-box">
+  <section class="cta container">
+    <div class="cta-box js-scroll">
       <div class="cta-descricao" id="net">
         <h2>Pacote de codificação .NET</h2>
         <p>Com um download, o .NET Coding Pack oferece tudo o que você precisa para começar a codificar com C#. O pacote inclui o editor VS Code, o SDK .NET, Blocos de anotações interativos e muito mais!
@@ -78,7 +78,7 @@
       </div>
       <img src="./asset/img/Designer -01.jpeg" alt="">
     </div>
-    <div class="cta-box">
+    <div class="cta-box js-scroll">
       <img src="./asset/img/Designer -03.jpeg" alt="">
       <div class="cta-descricao" id="blazor">
         <h2>ASP.NET Core Blazor</h2>
@@ -108,7 +108,23 @@
       </div>
     </div>
   </footer>
-  <script src="/main.js"></script>
+  <!-- Modal normalmente é feito na parte inferior dos sites -->
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <div class="modal-box">
+        <h2>Cadastre em nossa newslatter</h2>
+        <p>Você adora ficar por dentro das últimas novidades e tendências no mundo da programação?</p>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" form="email" id="email">
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="./asset/js/main.js"></script>
 </body>
 
 </html>
